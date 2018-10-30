@@ -1,0 +1,1 @@
+pathfile = 'C:/Users/Kirill/Documents/Un/SAS.Planet.Release.160707/cache_tms/map/'
