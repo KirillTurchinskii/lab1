@@ -83,7 +83,7 @@ def movedown():
 
 def movein():
     global x, y, z
-    if checkpath((x * 2) + 1, (y * 2) + 1, z + 1):
+    if checkpath((x * 2) + 1, (y * 2) + 1, z + 1) and checkpath((x * 2) + 2, (y * 2) + 2, z + 1):
         z += 1
         y = (y * 2) + 1
         x = (x * 2) + 1
